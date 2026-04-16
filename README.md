@@ -1,25 +1,53 @@
 # Resource Allocation and Task Breakdown in Angular Gantt Chart
 
-A quick-start project that helps you to allocate one or more resources to tasks in the Angular Gantt Chart component of Syncfusion based on the task requirement. This project also contains a code snippet to view the list of tasks assigned to each resource hierarchically and to enable multiple taskbars.
+A Syncfusion Angular Gantt sample demonstrating resource-centered scheduling, multi-taskbar rendering, and over-allocation visibility.
 
-Documentation: 
+## Overview
 
-Resource Allocation: https://ej2.syncfusion.com/angular/documentation/gantt/resources/
+This project uses `@syncfusion/ej2-angular-gantt` in an Angular app to display a resource view chart with task assignments and inline editing.
 
-Resource View: https://ej2.syncfusion.com/angular/documentation/gantt/resource-view/
+## Features
 
-Online examples: 
+- Resource allocation using `resources` and `resourceInfo`
+- Resource View mode with grouped assignments
+- Multi-taskbar support for shared resources
+- Over-allocation detection with `showOverAllocation`
+- Inline add/edit support through toolbar options
 
-Resource View: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/resources
+## Dependencies
 
-Resource Allocation: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/resource-view
+- Angular `~19.2.16`
+- `@syncfusion/ej2-angular-gantt` `^20.1.56`
 
-Resource Multi Taskbar: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/resource-multi-taskbar
+## Run Locally
 
-## Project prerequisites
+1. Install dependencies:
 
-Make sure that you have the latest versions of NodeJS and Visual Studio Code in your machine before starting to work on this project.
+```bash
+npm install
+```
 
-### How to run this application?
+2. Start the app:
 
-To run this application, you need to clone the `resource-allocation-in-angular-gantt-chart` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the `npm install` command and run your project using the `ng serve` command.
+```bash
+ng serve --open
+```
+
+3. Open the browser at:
+
+```text
+http://localhost:4200
+```
+
+## What the App Shows
+
+- Task grid with Task ID, Task Name, Resources, Start Date, End Date, and Duration
+- Resource assignments defined in `src/data.ts`
+- Task bar labels showing resources and task names
+- Built-in add/edit support using `editSettings` and `toolbarOptions`
+
+## Notes
+
+- Uses `viewType="ResourceView"`
+- `enableMultiTaskbar` is enabled
+- `showOverAllocation` highlights overload conditions
