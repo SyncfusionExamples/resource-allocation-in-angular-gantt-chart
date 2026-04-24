@@ -4,12 +4,10 @@ import { GanttModule, EditService, ToolbarService } from '@syncfusion/ej2-angula
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     BrowserModule,
-    GanttModule
+    GanttModule,
+    AppComponent
   ],
   providers: [EditService, ToolbarService],
   bootstrap: [AppComponent]
