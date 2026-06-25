@@ -55,7 +55,7 @@ http://localhost:4200
 ## Related Links
 
 - [Explore Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart)
-- [Gantt Selection Documentation](https://ej2.syncfusion.com/angular/documentation/gantt/resources/)
+- [Gantt Resource Allocation Documentation](https://ej2.syncfusion.com/angular/documentation/gantt/resources/)
 - [Gantt Chart Feature Overview](https://ej2.syncfusion.com/angular/documentation/gantt/overview)
 - [Angular Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/angular/documentation/gantt/getting-started)
 - [Gantt API Documentation](https://ej2.syncfusion.com/angular/documentation/api/gantt/)
