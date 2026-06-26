@@ -1,10 +1,10 @@
 # Resource Allocation and Task Breakdown in Angular Gantt Chart
 
-A Syncfusion Angular Gantt sample demonstrating resource‑centered scheduling, multi‑taskbar rendering, and over‑allocation visibility.
+An Angular Gantt sample demonstrating resource‑centered scheduling, multi‑taskbar rendering, and over‑allocation visibility.
 
 ## Repository Description
 
-This repository provides an Angular example that demonstrates how to configure the Syncfusion Gantt Chart in Resource View mode to assign tasks to shared resources and visualize workload distribution.
+This repository provides an Angular example that demonstrates how to configure the [Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart) in Resource View mode to assign tasks to shared resources and visualize workload distribution.
 
 ## Project Overview
 
@@ -51,3 +51,12 @@ http://localhost:4200
 - The chart runs with `viewType="ResourceView"` enabled.
 - enableMultiTaskbar allows multiple tasks to appear for a resource.
 - Editing actions are enabled using toolbar and edit settings.
+
+## Related Links
+
+- [Explore Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart)
+- [Gantt Resource Allocation Documentation](https://ej2.syncfusion.com/angular/documentation/gantt/resources/)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/angular/documentation/gantt/overview)
+- [Angular Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/angular/documentation/gantt/getting-started)
+- [Gantt API Documentation](https://ej2.syncfusion.com/angular/documentation/api/gantt/)
+- [Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/angular/demos/#/tailwind3/gantt/resources)
